@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤹yoga 🧘</title>
+    <style>
+        div{
+            background-color: bisque;
+            text-align: center;
+            width:50%;
+            margin: 60px auto;
+            
+        }
+        h1{
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+            font-style: italic;
+            text-transform: capitalize;
+            color: magenta;
+        }
+        strong{
+            
+            padding: 15px;
+            color: brown;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 100;
+            margin-bottom: 15px;
+            border: 3px solid salmon;
+            border-radius: 4px;
+            background-color: aquamarine;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            padding: 25px;
+            max-width: 100%;
+            border-radius: 15% 15%;
+        }
+        button{
+            color: blueviolet;
+            background-color: brown;
+            border: 26px 15px;
+            border-radius: 15px solid red;
+            margin: 10px ;
+            padding: 5px 5px 5px 5px;
+            box-sizing: border-box;
+            box-shadow: 3px;
+            transition: all 199ms ease-in-out;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: blue;
+            color: red;
+            border-radius: 5px 5px ;
+        }
+        p{
+            font-style: italic;
+
+        }
+        .free{
+            cursor: pointer;
+            padding: 18px 18px;
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1> welcome to yoga ❤️‍🩹</h1>
+    <strong> you feeling tired, stressed or anxious yoga will make you feel alive again </strong>
+    
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/158/original/all-about-yoga-mega-722x406.jpg?1720389828 "
+     alt="yoga" width="300px" class="yoga" >
+     <hr>
+     
+        <P>What is yoga? <br/>
+            Yoga is a practice that connects the body, breath, and mind.<br/> It uses physical postures, breathing exercises, and meditation to improve overall health.<br/>
+             Yoga was developed as a spiritual practice thousands of years ago. <br/>
+             Today, most Westerners who do yoga do it f</strong>or exercise or to reduce stress.
+             <br/>
+             <a href="https://medlineplus.gov/ency/patientinstructions/000876.htm#:~:text=Yoga%20is%20a%20practice%20that,exercise%20or%20to%20reduce%20stress. " target="_blank" class="free"> Yoga</a>
+            </P>
+        
+        <button class="do_yoga">
+            💘yoga🧎‍♂️
+        </button> <br/>
+        <span> writen by &trade; Primrose Sibongile Dube &copy;</span>
+     
+    </div>
+    <script>
+        function exercise(){
+            let name = prompt("What is your name 😄?");
+            let lastName = prompt("What is your last name 😃 ?");
+            let email = prompt("What is your emal address");
+            let age = prompt("What's your age");
+            if (age < 35){
+                alert("thank you! "+" "+name+" "+lastName+" "+"you'll be attending mondays and fridays!!");
+            } else{
+                alert("thank you !"+" "+name+" "+ lastName+ " "+ "you're on tuesday & thursdays");
+            }
+        }
+        let doYoga = document.querySelector(".do_yoga")
+        doYoga.addEventListener("click", exercise);
+    </script>
+</body>
+</html>
